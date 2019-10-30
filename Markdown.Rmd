@@ -1,0 +1,26 @@
+---
+title: "Markdown Syntax"
+---
+
+**************
+
+<center>![](images/syntaxicon.png){width=30%}</center>
+
+
+### Introduction
+
+The text in an R Markdown document is written with the Markdown syntax. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. By studying this blog, you’ll learn a lot about basic Markdown syntax and LaTeX mathematical typesetting language, and you’ll be able to produce nice-looking documents with R.
+
+***
+### Markdown basic
+
+- [Inline formatting](Inline-formatting.html)
+- [Math expressions](Math-expressions.html)
+- [Block-level elements](Formatting-constructs.html)
+
+***
+### Reference
+
+R Core Team. 2019. R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing. <https://www.R-project.org/>
+
+Xie, Yihui. 2016. Bookdown: Authoring Books and Technical Documents with R Markdown. Boca Raton, Florida: Chapman; Hall/CRC. <https://github.com/rstudio/bookdown>

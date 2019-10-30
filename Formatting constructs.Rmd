@@ -1,0 +1,85 @@
+---
+title: "Block-level Elements"
+---
+***
+### Headings
+To create a heading, add pound signs `#` in front of a word or phrase. The number of number signs you use should correspond to the heading level.
+```
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+```
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+
+***
+### Lists
+- #### Ordered Lists
+To create an ordered list, add line items with numbers followed by periods.
+```
+1. First item
+2. Second item
+3. Third item
+```
+1. First item
+2. Second item
+3. Third item
+<br>
+<br>
+```
+1. First item
+2. Second item
+    1. Indented item
+    2. Indented item
+3. Third item
+```
+1. First item
+2. Second item
+   1. Indented item
+   2. Indented item
+3. Third item
+<br>
+<br>
+- #### Unordered Lists
+To create an unordered list, add hyphens `-`, asterisks `*`, or plus signs `+` in front of line items.
+```
+- First item
+* Second item
++ Third item
+```
+- First item
+* Second item
++ Third item
+<br>
+<br>
+```
+- First item
+- Second item
+    - Indented item
+    - Indented item
+- Third item
+```
+- First item
+- Second item
+    - Indented item
+    - Indented item
+- Third item
+
+***
+### Blockquotes
+To create a blockquote, add a `>` in front of a paragraph.
+```
+>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking."
+>
+> --- Steve Jobs
+```
+>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking."
+>
+> --- Steve Jobs

@@ -1,0 +1,37 @@
+name: "Yinuo Liu's website"
+output_dir: "."
+navbar:
+  title: Home
+  
+  #Set navigation bar styles
+  type: inverse
+
+  #navigation to my blog
+  left:
+  - text: Blog
+    icon: fa-wpforms
+    menu:
+        - text: "Blog1: Mrkdown Syntax"
+          menu:
+            - text: "Overview"
+              href: Markdown.html
+            - text: "--------------"
+            - text: "Inline Formatting"
+              href:  Inline-formatting.html
+            - text: "Math Expressions"
+              href:  Math-expressions.html
+            - text: "Block-level elements"
+              href: Formatting-constructs.html
+
+  #navigation to mail github twitter and my cv      
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<yil4010@med.cornell.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/smashingzing/
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/YinuoLiu6
+    - icon: fa-user-circle fa-lg
+      href: CV-Yinuo_Liu.pdf
+output:
+  html_document

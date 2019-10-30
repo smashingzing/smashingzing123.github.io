@@ -1,0 +1,85 @@
+---
+title: "Inline Formatting"
+---
+*****
+### Emphasis
+- #### Bold
+To bold text, add two asterisks `**` or underscores `__` before and after a word or phrase.
+```
+When **p-value** is less than __significance level__, We have evidence to reject the null hypothesis.
+```
+When **p-value** is less than __significance level__, We have evidence to reject the null hypothesis.
+<br>
+<br>
+
+-  #### Italic
+To italicize text, add one asterisk `*` or underscore `_` before and after a word or phrase. 
+```
+When *p-value* is larger than _significance level_, We do not have enough evidence to reject the null hypothesis.
+```
+When *p-value* is larger than _significance level_, We do not have enough evidence to reject the null hypothesis.
+<br>
+<br>
+
+- #### Bold and Italic
+To emphasize text with bold and italics at the same time, add three asterisks `***` or underscores `___` before and after a word or phrase.
+```
+A ***chi-squared test*** can be used to attempt rejection of the null hypothesis that the data are independent.
+```
+A ***chi-squared test*** can be used to attempt rejection of the null hypothesis that the data are independent.
+
+***
+
+### Subscripts and Superscripts
+To indicate a subscript, use a pair of tildes `~`.
+```
+H~2~O 
+```
+H~2~O
+<br>
+<br>
+To indicate a superscript, use a pair of carets `^`.
+```
+This is a citation.^1^
+```
+This is a citation.^1^
+
+***
+### Inline Code
+To mark text as inline code, use a pair of back ticks `` ` ``.
+```
+This is a `code`.
+```
+This is a `code`.
+<br>
+<br>
+If the word or phrase you want to denote as code includes tick marks, you can escape it by enclosing the word or phrase in double tick marks. To include n literal back ticks, use at least n+1 back ticks outside.
+```
+Use`` `code` `` in your Markdown file.
+```
+Use`` `code` `` in your Markdown file.
+
+***
+### Links
+To create a link, enclose the link text in brackets and then follow it immediately with the URL in parentheses.
+```
+[R cheat sheet](https://rstudio.com/resources/cheatsheets/) is very useful.
+```
+[R cheat sheet](https://rstudio.com/resources/cheatsheets/) is very useful.<br>
+<br>
+To quickly turn a URL or email address into a link, enclose it in angle brackets.
+```
+<https://rstudio.com/resources/cheatsheets/>
+<yil4010@med.cornell.edu>
+``` 
+<https://rstudio.com/resources/cheatsheets/><br>
+<yil4010@med.cornell.edu>
+
+
+***
+### Images
+To add an image, add an exclamation mark `!`, followed by text in brackets, and the path or URL to the image asset in parentheses. You can optionally adjust the size of image after the URL in the curly braces.
+```
+![R is cool.](images/Ricon.png){width=10%}
+```
+![R is cool.](images/Ricon.png){width=10%}

@@ -1,0 +1,88 @@
+---
+title: "Math Expressions"
+---
+
+***
+### Typesetting Equations
+Equations can be formatted inline or as displayed formulas. In the latter case, they are centered and set off from the main text. In the former case, the mathematical material occurs smoothly in the line of text. In the former case, the mathematical material occurs smoothly in the line of text.
+
+- Inline mathematical material is set off by the use of single dollar-sign characters`$ $`
+
+```
+$\pi_0=\pi_a$
+```  
+$\pi_0=\pi_a$
+
+- Display mathematical material is set off by the use of double dollar-sign characters`$$ $$`
+
+```
+$$\pi_0=\pi_a$$  
+```  
+$$\pi_0=\pi_a$$   
+
+***
+
+### Subscripts and Superscripts
+
+To indicate a subscript, use the underscore character `_`
+```
+`x_i`  
+```
+$x_i$
+
+To indicate a superscript, use the caret character `^`
+```
+`x^i`  
+```
+$x^i$
+
+If the subscript or superscript has just one character, there is no need to delimit with braces. However, if there is more than one character, braces must be used.
+
+```
+`x_i`    `x_{i}`      `x_i,j`    `x_{i,j}`
+```
+$x_i$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $x_{i}$   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  $x_i,j$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   $x_{i,j}$
+
+Here is an expression that uses both subscripts and superscripts
+```
+`x_i^2`  
+```
+$x_i^2$
+
+***
+### Square Roots
+
+To indicate a subscript, use the `\sqrt` operator.
+```
+$\sqrt2$     $\sqrt{2^i-1}$
+```
+$\sqrt2$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;   $\sqrt{2^i-1}$
+
+***
+
+### Fractions
+
+To indicate a fraction, use the `\frac` operator.
+```
+$\frac{1}{2^{i-1}}$
+```
+$\frac{1}{2^{i-1}}$
+
+***
+
+### Self-Sizing Parentheses
+
+To indicate parentheses which size themselves automatically to contain large expressions, use the `\left` and `\right` operators.
+```
+${\left( \frac{5a+1}{2b-1} \right)}^4$
+```
+${\left( \frac{5a+1}{2b-1} \right)}^4$
+
+***
+### Greek Letters
+
+There are both upper and lower case versions available for some letters.
+```
+$\alpha$ $\beta$     $gamma$    $chi$      $pi$       $Pi$
+```
+$\alpha$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\beta$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\gamma$  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;$\chi$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\pi$ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; $\Pi$
